@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomCharts Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="images/logo.svg" class="navbar-brand-img d-lg-block d-none" alt="logo">
+                <img src="images/logo-mobile.svg" class="navbar-brand-img d-lg-none d-block" alt="logo mobile">
+            </a>
+            <button class="navbar-toggler border-0 collapsed px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <!-- Navigation -->
+                <ul class="navbar-nav ms-lg-auto ms-0">
+                    <button type="button" class="btn btn-primary ms-lg-4 ms-0 mb-lg-0 mb-4" data-bs-toggle="modal" data-bs-target="#sign-up-modal">
+                        Sign Up
+                    </button>
+
+                    <button type="button" class="bg-transparent border-0 text-dark font-size-16px ms-lg-4 ms-0" data-bs-toggle="modal" data-bs-target="#sign-in-modal">
+                        Sign in
+                    </button>
+
+                    <form class="ms-5 align-self-center d-lg-block d-none" action="/search" method="get">
+                        <input type="search" placeholder="Search">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero pt-195px pb-122px position-relative">
+        <div class="container px-0">
+            <div class="row mx-0">
+                <div class="col-lg-5 px-0">
+                    <div class="ellipse-decor-3"></div>
+                    <h1 class="pb-3 text-lg-start text-center px-3">Learn it<span class="text-purple">.</span> Easy<span class="text-primary">.</span>
+                    </h1>
+                    <p class="main-description pb-63px text-lg-start text-center px-3">Become ZoomCharts Pro with ease</p>
+
+                    <div class="ratio ratio-16x9 d-lg-none d-block mb-lg-0 mb-5">
+                        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                    <div class="text-lg-start text-center px-3">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sign-up-modal">
+                            Sign Up Now - It's Free!
+                        </button>
+                    </div>
+
+                    <div class="px-3 d-lg-none d-block text-center pt-4">
+                        <button type="button" class="bg-transparent border-0 text-dark font-size-16px" data-bs-toggle="modal" data-bs-target="#sign-in-modal">
+                            Sign in
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 position-relative d-lg-block d-none">
+                    <div class="repeat-grid-left"></div>
+                    <div class="repeat-grid-right"></div>
+
+                    <div class="ellipse-decor-1"></div>
+                    <div class="ellipse-decor-2"></div>
+
+                    <div class="ellipse-decor-4"></div>
+
+                    <div class="shadow-bg">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="learn pb-63px position-relative">
+        <div class="container">
+            <div class="row pb-63px">
+                <div class="learn-decor d-lg-block d-none"></div>
+                <div class="col-lg-6">
+                    <h2 class="mb-0 text-lg-start text-center"><span class="gradient-text">Learn</span> ZoomCharts</h2>
+                    <p class="main-description font-size-35px text-lg-start text-center">With Experts</p>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <p class="main-description font-size-20px fst-italic text-end d-lg-block d-none">Some of the most experienced ZoomCharts Engineerswill show you how to do things like "da cha-cha"</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card h-100 px-0">
+                        <div class="text-center">
+                            <img src="images/lessons.svg" class="card-img-top px-1" alt="lessons">
+                        </div>
+                        <div class="card-body bg-transparent p-0 border-0">
+                            <p class="font-size-25px fw-bolder py-4">Watch the Lessons</p>
+                            <p class="main-description font-size-20px fst-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card h-100 px-0">
+                        <div class="text-center">
+                            <img src="images/read-further.svg" class="card-img-top px-5" alt="read further">
+                        </div>
+                        <div class="card-body bg-transparent p-0 border-0">
+                            <p class="font-size-25px fw-bolder py-4">Read Further</p>
+                            <p class="main-description font-size-20px fst-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card h-100 px-0">
+                        <div class="text-center">
+                            <img src="images/practical-tips.svg" class="card-img-top px-5" alt="practical tips">
+                        </div>
+                        <div class="card-body bg-transparent p-0 border-0">
+                            <p class="font-size-25px fw-bolder py-4">Get Practical Tips</p>
+                            <p class="main-description font-size-20px fst-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card h-100 px-0">
+                        <div class="text-center">
+                            <img src="images/certified.svg" class="card-img-top px-2" alt="certified">
+                        </div>
+                        <div class="card-body bg-transparent p-0 border-0">
+                            <p class="font-size-25px fw-bolder py-4">Become Certified</p>
+                            <p class="main-description font-size-20px fst-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certified pb-100px">
+        <div class="container">
+            <div class="row pb-100px">
+                <div class="col-lg-12">
+                    <div class="bg-white shadow p-lg-5 px-4 py-5">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="mb-0 text-lg-start text-center"><span class="gradient-text">Level</span> up!</h2>
+                                <p class="main-description font-size-35px pb-5 text-lg-start text-center">Learn new skills & let your carreer evolve</p>
+
+                                <div class="input-group text-lg-start text-center">
+                                    <input type="text" class="form-control pe-0" placeholder="What would you like to learn first?" aria-label="Username" aria-describedby="basic-addon">
+                                    <button class="input-group-text" id="basic-addon">
+                                        <span class="icon-search"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-end d-lg-block d-none">
+                                <img src="images/learn-image.png" alt="Learn up">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-50px">
+                <div class="col-lg-8">
+                    <h2 class="mb-0 text-lg-start text-center"><span class="gradient-text">Become</span> Certified</h2>
+                </div>
+                <div class="col-lg-4 align-self-center ">
+                    <p class="main-description font-size-20px fst-italic text-lg-end text-center">The most popular choices by our usersin the recent time.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 position-relative card-bg mb-lg-0 mb-5">
+                    <div class="card h-100">
+                        <div class="text-center position-relative">
+                            <img src="images/user.svg" class="card-img-top" alt="ZoomCharts User">
+                            <span class="badge bg-white text-primary">in progress</span>
+                        </div>
+
+                        <div class="card-body px-0 pb-0">
+                            <h4 class="card-title my-0 mb-4">ZoomCharts User</h4>
+                            <p class="card-text pb-5 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.</p>
+                        </div>
+                        <div class="card-footer bg-transparent p-0">
+                            <div class="row pt-4 pb-38px">
+                                <div class="col-6">
+                                    <p class="font-size-15px text-secondary fw-lighter"><span class="text-primary">20</span> QUESTIONS</p>
+                                </div>
+                                <div class="col-6 text-end ps-0">
+                                    <p class="font-size-15px text-secondary fw-lighter">APPROX. 30 MIN</p>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative card-bg mb-lg-0 mb-5">
+                    <div class="card h-100">
+                        <div class="text-center position-relative">
+                            <img src="images/creator-basic.svg" class="card-img-top" alt="ZoomCharts User">
+                            <span class="badge bg-white text-success">completed</span>
+                        </div>
+
+                        <div class="card-body px-0 pb-0">
+                            <h4 class="card-title mb-4">ZoomCharts Creator Basic</h4>
+                            <p class="card-text pb-5 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.</p>
+                        </div>
+                        <div class="card-footer bg-transparent p-0">
+                            <div class="row pt-4 pb-38px">
+                                <div class="col-6">
+                                    <p class="font-size-15px text-secondary fw-lighter"><span class="text-primary">48</span> QUESTIONS</p>
+                                </div>
+                                <div class="col-6 text-end ps-0">
+                                    <p class="font-size-15px text-secondary fw-lighter">APPROX. 1H</p>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative card-bg mb-lg-0 mb-5">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <img src="images/creator-advanced.svg" class="card-img-top" alt="ZoomCharts User">
+                        </div>
+
+                        <div class="card-body px-0 pb-0">
+                            <h4 class="card-title mb-4">ZoomCharts Creator Advanced</h4>
+                            <p class="card-text pb-5 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.</p>
+                        </div>
+                        <div class="card-footer bg-transparent p-0">
+                            <div class="row pt-4 pb-38px">
+                                <div class="col-6">
+                                    <p class="font-size-15px text-secondary fw-lighter"><span class="text-primary">72</span> QUESTIONS</p>
+                                </div>
+                                <div class="col-6 text-end ps-0">
+                                    <p class="font-size-15px text-secondary fw-lighter">APPROX. 1.5H</p>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="sign-up-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-end">
+                    <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0 px-lg-5 px-4 pb-5 text-center">
+                    <h2 class="mb-0"><span class="gradient-text">Sign Up</span> for Free Access</h2>
+                    <p class="main-description font-size-20px fst-italic pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie.</p>
+
+                    <div class="input-group mb-5">
+                        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon1">
+                        <div class="input-group-text">
+                            <button class="input-group-button get-access-btn" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#success-modal">Get Access</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="hr-line"></div>
+                        <a href="#" class="sign-in-link">or sign in</a>
+                        <div class="hr-line"></div>
+                    </div>
+
+                    <div class="d-grid gap-2 pt-5">
+                        <button type="button" class="btn btn-outline-primary py-2"><span class="pe-2"><img src="images/microsoft-icon.svg"></span>Sign in with Microsoft</button>
+                        <button type="button" class="btn btn-outline-primary py-2"><span class="pe-2"><img src="images/zoomcharts-icon.svg"></span>Sign in with ZoomCharts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sign-in-modal" tabindex="-1" aria-labelledby="sign-in-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-end">
+                    <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0 px-lg-5 px-4 pb-5 text-center">
+                    <h2 class="mb-0"><span class="gradient-text">Sign In</span> for Free Access</h2>
+                    <p class="main-description font-size-20px fst-italic pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie.</p>
+
+                    <div class="input-group mb-5">
+                        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon1">
+                        <div class="input-group-text">
+                            <button class="input-group-button get-access-btn" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#success-modal">Get Access</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="hr-line"></div>
+                        <a href="#" class="sign-in-link">or sign in</a>
+                        <div class="hr-line"></div>
+                    </div>
+
+                    <div class="d-grid gap-2 pt-5">
+                        <button type="button" class="btn btn-outline-primary py-2"><span class="pe-2"><img src="images/microsoft-icon.svg"></span>Sign in with Microsoft</button>
+                        <button type="button" class="btn btn-outline-primary py-2"><span class="pe-2"><img src="images/zoomcharts-icon.svg"></span>Sign in with ZoomCharts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="success-modal" tabindex="-1" aria-labelledby="success-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-end">
+                    <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0 px-5 pb-5 text-center">
+                    <h2 class="mb-4">Success</h2>
+                    <p class="main-description font-size-20px fst-italic pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie.</p>
+
+                    <a type="button" href="exams.html" class="btn btn-primary">Start Learning</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typeahead.bundle.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

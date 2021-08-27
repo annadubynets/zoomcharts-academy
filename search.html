@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomCharts Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="images/logo.svg" class="navbar-brand-img d-lg-block d-none" alt="logo">
+                <img src="images/logo-mobile.svg" class="navbar-brand-img d-lg-none d-block" alt="logo mobile">
+            </a>
+            <button class="navbar-toggler border-0 collapsed px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <!-- Navigation -->
+                <ul class="navbar-nav ms-lg-auto ms-0">
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#"><span class="hover-effect">Sign in</span></a>
+                    </li>
+                    <form class="ms-4 align-self-center d-lg-block d-none" action="/search" method="get">
+                        <input type="search" placeholder="Search">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="search pt-130px">
+        <div class="container">
+            <div class="row pb-100px">
+                <div class="col-lg-12">
+                    <h2 class="mb-0 pb-38px">Search</h2>
+                    <div class="input-group text-lg-start text-center pb-63px">
+                        <input type="text" class="form-control pe-0" placeholder="What would you like to learn first?" aria-label="Username" aria-describedby="basic-addon">
+                        <button class="input-group-text" id="basic-addon">
+                            <span class="icon-search"></span>
+                        </button>
+                    </div>
+
+                    <h3 class="mb-4">Courses</h3>
+
+                    <div class="row border-bottom d-lg-flex d-none">
+                        <div class="col-lg-4">
+                            <label for="">Name</label>
+                        </div>
+                        <div class="col-lg-5">
+                            <label for="">Description</label>
+                        </div>
+                        <div class="col-lg-2">
+                            <label for="">Lessons</label>
+                        </div>
+                        <div class="col-lg-1">
+                            <label for="">Status</label>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Pie & Donut Visual and what else not</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>7</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-green"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies 2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>5</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Pie & Donut Visual and what else not</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>7</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-green"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies 2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>5</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Pie & Donut Visual and what else not</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>7</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-green"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies 2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Lessons</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>5</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="text-center mt-4 pb-63px">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <h3 class="mb-4">Quizzes & Exams</h3>
+
+                    <div class="row border-bottom d-lg-flex d-none">
+                        <div class="col-lg-4">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-5">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-2">
+                            <label>Category</label>
+                        </div>
+                        <div class="col-lg-1">
+                            <label>Status</label>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Pie & Donut Visual and what else not</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Category</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>Knowledge check</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Category</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>Exam</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-green"></span>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom pb-lg-0 pb-2 mb-lg-0 mb-2 table-hover">
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-lg-4 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">ZoomCharts for dummies 2</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Description</label>
+                        </div>
+                        <div class="col-lg-5 col-9 py-lg-4 py-2 align-self-center">
+                            <p class="text-truncate w-100">Lorem <span class="fw-bold">ipsum</span> dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Category</label>
+                        </div>
+                        <div class="col-lg-2 col-9 py-lg-4 py-2 align-self-center">
+                            <p>Knowledge check</p>
+                        </div>
+
+                        <div class="col-lg-4 col-3 py-lg-4 py-2 d-lg-none d-block">
+                            <label>Status</label>
+                        </div>
+                        <div class="col-lg-1 col-9 py-lg-4 py-2 align-self-center">
+                            <span class="icon-completed text-grey"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="text-center mt-4 pb-63px">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
