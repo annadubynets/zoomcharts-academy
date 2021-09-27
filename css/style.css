@@ -972,12 +972,14 @@ input::-webkit-input-placeholder {
 .courses .title {
   font-weight: 700;
   font-size: 40px;
+  line-height: 46px;
   color: #585858;
 }
 .courses .subtitle {
   font-family: "Merriweather";
   font-weight: 300;
   font-size: 30px;
+  line-height: 36px;
   color: #585858;
 }
 .courses .progress {
