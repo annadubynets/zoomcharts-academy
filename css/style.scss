@@ -187,6 +187,21 @@
         }
     }
     
+    .btn-outline-secondary {
+        font-weight: 400;
+        font-size: 16px;
+        padding: 7px 26px;
+        color: #000000;
+        background: $white;
+        border-radius: 50px;
+        border: 1px solid $darkgrey;
+        &:hover {
+            background-color: $darkgrey!important;
+            border: 1px solid $darkgrey;
+            box-shadow: 0 4px 15px 0 rgba(188, 190, 192, 0.75);
+        }
+    }
+    
     .btn-check:focus+.btn-outline-primary,
     .btn-outline-primary:focus {
         box-shadow: none!important;
@@ -788,6 +803,30 @@
         .search-description {
             opacity: 0.7;
             padding-top: 9px;
+        }
+    }
+    
+    .courses {
+        .title {
+            font-weight: 700;
+            font-size: 40px;
+            color: $black;
+        }
+        .subtitle {
+            font-family: 'Merriweather';
+            font-weight: 300;
+            font-size: 30px;
+            color: $black;
+        }
+        .progress {
+            height: 30px;
+            background-color: $white;
+            border: 1px solid $deepskyblue;
+            border-radius: 25px;
+        }
+        .progress-bar {
+            background: linear-gradient(90deg, rgba(191, 62, 254, 1) 0%, rgba(27, 158, 255, 1) 100%);
+            border-radius: 25px;
         }
     }
     

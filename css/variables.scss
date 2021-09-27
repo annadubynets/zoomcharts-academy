@@ -40,6 +40,12 @@ h5 {
     color: $grey;
 }
 
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: $black;
+}
+
 .font-size-35px {
     font-size: 35px!important;
 }
@@ -102,6 +108,10 @@ h5 {
 
 .text-grey {
     color: #AEAEAE;
+}
+
+.text-pink {
+    color: #FE3E7F;
 }
 
 .bg-transparent {

@@ -30,6 +30,12 @@ h5 {
   color: #848484;
 }
 
+p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #585858;
+}
+
 .font-size-35px {
   font-size: 35px !important;
 }
@@ -92,6 +98,10 @@ h5 {
 
 .text-grey {
   color: #AEAEAE;
+}
+
+.text-pink {
+  color: #FE3E7F;
 }
 
 .bg-transparent {
@@ -375,6 +385,21 @@ a.styled-link:hover {
   background-color: #1B9EFF !important;
   border: 1px solid #1B9EFF;
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-outline-secondary {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 7px 26px;
+  color: #000000;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: 1px solid #707070;
+}
+.btn-outline-secondary:hover {
+  background-color: #707070 !important;
+  border: 1px solid #707070;
+  box-shadow: 0 4px 15px 0 rgba(188, 190, 192, 0.75);
 }
 
 .btn-check:focus + .btn-outline-primary,
@@ -942,6 +967,28 @@ input::-webkit-input-placeholder {
 .tt-menu.tt-open .search-description {
   opacity: 0.7;
   padding-top: 9px;
+}
+
+.courses .title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #585858;
+}
+.courses .subtitle {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 30px;
+  color: #585858;
+}
+.courses .progress {
+  height: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #1B9EFF;
+  border-radius: 25px;
+}
+.courses .progress-bar {
+  background: linear-gradient(90deg, #bf3efe 0%, #1b9eff 100%);
+  border-radius: 25px;
 }
 
 @media (max-width: 768px) {

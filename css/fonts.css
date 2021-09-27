@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?56ts66');
-    src: url('../fonts/icomoon.eot?56ts66#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?56ts66') format('truetype'), url('../fonts/icomoon.woff?56ts66') format('woff'), url('../fonts/icomoon.svg?56ts66#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?90xogr');
+    src: url('../fonts/icomoon.eot?90xogr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?90xogr') format('truetype'), url('../fonts/icomoon.woff?90xogr') format('woff'), url('../fonts/icomoon.svg?90xogr#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -104,29 +104,6 @@
     content: "\e90e";
 }
 
-.icon-microsoft .path1:before {
-    content: "\e903";
-    color: rgb(243, 83, 37);
-}
-
-.icon-microsoft .path2:before {
-    content: "\e909";
-    margin-left: -1em;
-    color: rgb(129, 188, 6);
-}
-
-.icon-microsoft .path3:before {
-    content: "\e90a";
-    margin-left: -1em;
-    color: rgb(5, 166, 240);
-}
-
-.icon-microsoft .path4:before {
-    content: "\e90b";
-    margin-left: -1em;
-    color: rgb(255, 186, 8);
-}
-
 .icon-thumbs-up:before {
     content: "\e90c";
 }
@@ -155,6 +132,11 @@
     content: "\e908";
     color: #1b9eff;
     font-size: 20px;
+}
+
+.icon-edit:before {
+    content: "\e923";
+    color: #585858;
 }
 
 .icon-search:before {
