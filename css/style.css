@@ -984,8 +984,7 @@ input::-webkit-input-placeholder {
 }
 .courses .progress {
   height: 30px;
-  background-color: #FFFFFF;
-  border: 1px solid #1B9EFF;
+  background-color: #F5F5F5;
   border-radius: 25px;
 }
 .courses .progress-bar {
