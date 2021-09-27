@@ -36,6 +36,10 @@ p {
   color: #585858;
 }
 
+.font-size-45px {
+  font-size: 45px !important;
+}
+
 .font-size-35px {
   font-size: 35px !important;
 }
